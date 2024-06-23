@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-blue-bar">
+        <div class="top-blue-bar-content">
+            <p class="font-normal">Start building your developer portal. Free forever.</p>
+            <button class="sign-up"><p>Sign up for free</p></button>
+            <button class="schedule-demo">Schedule in-person demo</button>
+        </div>
+    </div>
+    <header class="top-bar">
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <div class="button-container">
+                <ul>
+                    <li><a href="#"><i class="fas fa-house" style="color: #74C0FC;"></i> Home</a></li>
+                    <li><a href="#" class="catalog-button"><i class="fas fa-bars" style="color: #B197FC;"></i> Catalog</a></li>
+                    <li><a href="#"><i class="fas fa-bolt" style="color: #FFD43B;"></i> Self-service</a></li>
+                </ul>                
+            </div>
+        </nav>
+        <div class="top-right-search">
+            <div class="search-container">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" placeholder="Search">
+                <div class="keyboard-shortcut">
+                    <span class="key">Ctrl</span>
+                    <span class="key">K</span>
+                </div>
+            </div>
+            <div class="top-right-icons">
+                <div class="icon-text-container">
+                    <i class="fas fa-cog"></i>
+                    <span>Builder</span>
+                </div>
+                <div class="other-icons-container">
+                    <i class="fas fa-bullhorn"></i>
+                    <i class="fas fa-file-alt"></i>
+                    <img src="logo3.png" alt="Logo" class="logo3">
+                </div>
+            </div>
+        </div>
+    </header>
+    <aside class="sidebar">
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" placeholder="Search">
+        </div>
+        <ul class="menu">
+            <li class="new-button"><a href="#"><img src="logo4.png" alt="Logo4" class="logo4"> New</a></li>
+            <div class="scrollable-menu">
+                <li><a href="#"><img src="logo5.png" alt="Logo5" class="logo5"> My Services</a></li>
+                <li class="service-catalog-button"><a href="#"><img src="logo5.png" alt="Logo5" class="logo5">Service Catalog</a></li>
+                <li><a href="#"><i class="fa-duotone fa-greater-than fa-lg" style="--fa-primary-color: #5c5c5c; --fa-secondary-color: #5c5c5c;"></i>Dashboards 📊</a></li>
+                <li><a href="#"><i class="fa-duotone fa-greater-than fa-lg" style="--fa-primary-color: #5c5c5c; --fa-secondary-color: #5c5c5c;"></i>CI/CD 🏗️</a></li>
+                <li><a href="#"><i class="fa-duotone fa-greater-than fa-lg" style="--fa-primary-color: #5c5c5c; --fa-secondary-color: #5c5c5c;"></i>Plan my day 🎧</a></li>
+                <li><a href="#"><i class="fa-duotone fa-greater-than fa-lg" style="--fa-primary-color: #5c5c5c; --fa-secondary-color: #5c5c5c;"></i>Runtime 🚀</a></li>
+                <li><a href="#"><i class="fa-duotone fa-greater-than fa-lg" style="--fa-primary-color: #5c5c5c; --fa-secondary-color: #5c5c5c;"></i>Incidents & Issues 🚨</a></li>
+                <li><a href="#"><i class="fa-duotone fa-greater-than fa-lg" style="--fa-primary-color: #5c5c5c; --fa-secondary-color: #5c5c5c;"></i>Package Management 📦</a></li>
+                <li><a href="#"><i class="fa-solid fa-file" style="color: #616161;"></i>Tech Docs Library</a></li>
+                <li><a href="#"><i class="fa-solid fa-user-group" style="color: #616161;"></i>Domains</a></li>
+                <li><a href="#"><i class="fa-regular fa-lock" style="color: #616161;"></i>Cloud Permissions</a></li>
+            </div>
+        </ul>
+    </aside>
+    <main class="content">
+        <div class="content-header">
+            <h1><img src="logo5.png" alt="Logo5" class="logo5"> My Services</h1>
+            <div class="logo6-container">
+                <img src="logo6.png" alt="Logo6" class="logo6">
+            </div>
+        </div>
+        <div class="content-search-icons">
+            <div class="search-container content-search-bar">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="content-icons">
+                <div class="button-group">
+                    <div class="button-group-1">
+                        <i class="fa-solid fa-grip-lines fa-2xs" style="color: #6e6d6d;"></i>
+                        <i class="fa-solid fa-xmark fa-2xs" style="color: #6e6d6d;"></i>
+                    </div>
+                    <div class="button-group-2">
+                        <i class="fas fa-list fa-2xs" style="color: #6e6d6d;"></i>
+                        <i class="fa-solid fa-xmark fa-2xs" style="color: #6e6d6d;"></i>
+                    </div>
+                </div>
+                <i class="fa-solid fa-upload fa-xs" style="color: #6e6d6d;"></i>
+                <i class="fa-solid fa-file fa-xs" style="color: #6e6d6d;"></i>
+                <i class="fas fa-download fa-xs" style="color: #6e6d6d;"></i>
+                <button class="content-service-button">+ Service</button>
+            </div>
+        </div>
+        <div class="content-table-container">
+            <div class="table-container">
+                <table class="services-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Title</th>
+                            <th><i class="fab fa-github" style="color: #6a6c6c;"></i> Code Owners</th>
+                            <th><img src="git.png" alt="git-logo" class="git-header-logo">Language</th>
+                            <th class="github-heading"><i class="fab fa-github" style="color: #6a6c6c;"></i> Github URL</th>
+                            <th class="slack-notifications"><img src="slack.png" alt="slack-logo" class="slack-header-logo"> Slack Not</th>
+                            <th class="property">+ Property</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fab fa-node-js fa-l" style="color: green;"></i></td>
+                            <td class="service-name">shipping</td>
+                            <td>
+                                <img src="user1.jpg" alt="User 1" class="user-image">
+                            </td>
+                            <td><span class="badge node">Node</span></td>
+                            <td>
+                                <div class="github-logo-container">
+                                    <img src="github.png" alt="GitHub Logo" class="github-logo">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="slack-logo-container">
+                                    <img src="slack.png" alt="Slack Logo" class="slack-logo">
+                                </div>
+                            </td>
+                            <td class="property-cell"><i class="fa-solid fa-ellipsis fa-sm" style="color: #2b2b2b;"></i></td>
+                        </tr>
+                        <tr>
+                            <td><img src="python-logo.png" alt="python-logo" class="python-logo"></td>
+                            <td class="service-name"> fraud-detection</td>
+                            <td>
+                                <img src="user3.jpg" alt="User 3" class="user-image2">
+                            </td>
+                            <td><span class="badge node">Node</span></td>
+                            <td>
+                                <div class="github-logo-container">
+                                    <img src="github.png" alt="GitHub Logo" class="github-logo">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="slack-logo-container">
+                                    <img src="slack.png" alt="Slack Logo" class="slack-logo">
+                                </div>
+                            </td>
+                            <td class="property-cell"><i class="fa-solid fa-ellipsis fa-sm" style="color: #2b2b2b;"></i></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fab fa-golang" style="color: #74C0FC;"></i></td>
+                            <td class="service-name"> checkout</td>
+                            <td>
+                                <img src="user5.jpg" alt="User 5" class="user-image">
+                            </td>
+                            <td><span class="badge go">GO</span></td>
+                            <td>
+                                <div class="github-logo-container">
+                                    <img src="github.png" alt="GitHub Logo" class="github-logo">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="slack-logo-container">
+                                    <img src="slack.png" alt="Slack Logo" class="slack-logo">
+                                </div>
+                            </td>
+                            <td class="property-cell"><i class="fa-solid fa-ellipsis fa-sm" style="color: #2b2b2b;"></i></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fab fa-golang" style="color: #74C0FC;"></i></td>
+                            <td class="service-name"> currency</td>
+                            <td>
+                                <img src="user5.jpg" alt="User 5" class="user-image">
+                            </td>
+                            <td><span class="badge go">GO</span></td>
+                            <td>
+                                <div class="github-logo-container">
+                                    <img src="github.png" alt="GitHub Logo" class="github-logo">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="slack-logo-container">
+                                    <img src="slack.png" alt="Slack Logo" class="slack-logo">
+                                </div>
+                            </td>
+                            <td class="property-cell"><i class="fa-solid fa-ellipsis fa-sm" style="color: #2b2b2b;"></i></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-brands fa-react fa-lg" style="color: #74C0FC;"></i></td>
+                            <td class="service-name">frontend</td>
+                            <td>
+                                <img src="user7.jpg" alt="User 7" class="user-image">
+                            </td>
+                            <td><span class="badge python">Python</span></td>
+                            <td>
+                                <div class="github-logo-container">
+                                    <img src="github.png" alt="GitHub Logo" class="github-logo">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="slack-logo-container">
+                                    <img src="slack.png" alt="Slack Logo" class="slack-logo">
+                                </div>
+                            </td>
+                            <td class="property-cell"><i class="fa-solid fa-ellipsis fa-sm" style="color: #2b2b2b;"></i></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fab fa-golang" style="color: #74C0FC;"></i></td>
+                            <td class="service-name"> pricing</td>
+                            <td>
+                                <img src="user9.jpg" alt="User 9" class="user-image2">
+                            </td>
+                            <td><span class="badge go">GO</span></td>
+                            <td>
+                                <div class="github-logo-container">
+                                    <img src="github.png" alt="GitHub Logo" class="github-logo">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="slack-logo-container">
+                                    <img src="slack.png" alt="Slack Logo" class="slack-logo">
+                                </div>
+                            </td>
+                            <td class="property-cell"><i class="fa-solid fa-ellipsis fa-sm" style="color: #2b2b2b;"></i>  </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="progress-bar-container">
+                    <div class="progress-bar">
+                            <div class="progress-node" style="width: 20%; background-color: orange;"></div>
+                            <div class="progress-node" style="width: 20%; background-color: red;"></div>
+                            <div class="progress-node" style="width: 20%; background-color: blue;"></div>
+                            <div class="progress-node" style="width: 20%; background-color: lightgreen;"></div>
+                    </div>
+                </div>
+                <div class="fake-vertical-scrollbar"></div>
+                <div class="fake-horizontal-scrollbar"></div>
+            </div>
+        </div>
+        <p class="results-count">15 results</p>
+        <img src="logo7.png" alt="Logo7" class="bottom-logo">
+    </main>
+</body>
+</html>
